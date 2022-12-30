@@ -256,13 +256,13 @@ http_archive(
 new_local_repository(
     name = "linux_opencv",
     build_file = "@//third_party:opencv_linux.BUILD",
-    path = "/usr",
+    path = "/usr/local",
 )
 
 new_local_repository(
     name = "linux_ffmpeg",
     build_file = "@//third_party:ffmpeg_linux.BUILD",
-    path = "/usr"
+    path = "/usr/bin"
 )
 
 new_local_repository(
